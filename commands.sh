@@ -18,5 +18,8 @@ whoami
 echo "Step 6: Checking the present workign directory of the machine"
 sudo pwd
 
+echo "Step 7: listing all the files in the current directory"
+sudo ls
+
 echo "Step 7: Done executing commands!"
 
