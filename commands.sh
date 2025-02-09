@@ -15,5 +15,8 @@ uptime
 echo "Step 5: Verifying the user"
 whoami
 
-echo "Step 5: Done executing commands!"
+echo "Step 6: Checking the present workign directory of the machine"
+sudo pwd
+
+echo "Step 7: Done executing commands!"
 
