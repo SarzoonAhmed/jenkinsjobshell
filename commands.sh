@@ -12,4 +12,8 @@ ps aux --sort=-%mem | head -10
 echo "Step 4: Printing system uptime..."
 uptime
 
+echo "Step 5: Verifying the user"
+whoami
+
 echo "Step 5: Done executing commands!"
+
