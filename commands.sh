@@ -19,7 +19,7 @@ echo "Step 6: cheching for the process ids of git"
 ps -ef | grep git 
 
 echo "Step 7: Checking the present workign directory of the machine"
-sudo pwd
+pwd
 
 echo "Step 8: listing all the files in the current directory"
 sudo ls
