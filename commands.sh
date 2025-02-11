@@ -24,5 +24,8 @@ sudo pwd
 echo "Step 8: listing all the files in the current directory"
 sudo ls
 
-echo "Step 9: Done executing commands!"
+echo "Step 9: cheching for the process ids of jenkins"
+ps -ef | grep jenkins 
+
+echo "Step 10: Done executing commands!"
 
