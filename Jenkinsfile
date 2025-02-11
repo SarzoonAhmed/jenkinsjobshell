@@ -1,4 +1,5 @@
 node {
+    agent { label 'pipeline_node' }  // Runs only on "my-node"
     stage('Clone Repository') {
         git branch: 'main', url: 'https://github.com/SarzoonAhmed/jenkinsjobshell.git'
     }
